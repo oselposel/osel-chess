@@ -77,6 +77,12 @@ a {
   object-fit: contain;
 }
 
+.brand-logo-wide {
+  width: clamp(172px, 22vw, 252px);
+  height: auto;
+  max-height: 58px;
+}
+
 .brand strong,
 .brand small {
   display: block;
@@ -217,6 +223,12 @@ h3 {
   color: var(--ink);
   font-size: clamp(18px, 2vw, 23px);
   line-height: 1.45;
+}
+
+.organizer-line {
+  display: block;
+  margin-top: 8px;
+  font-weight: 700;
 }
 
 .button {
@@ -466,6 +478,11 @@ h3 {
   .site-header {
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+
+  .brand-logo-wide {
+    width: min(64vw, 210px);
+    max-height: 48px;
   }
 
   .top-nav {
