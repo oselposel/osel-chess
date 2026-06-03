@@ -38,8 +38,8 @@ tabs.forEach((tab, index) => {
     const lastIndex = tabs.length - 1;
     let nextIndex = currentIndex;
 
-    if (event.key === 'ArrowRight') nextIndex = currentIndex === lastIndex ? 0 : currentIndex + 1;
-    if (event.key === 'ArrowLeft') nextIndex = currentIndex === 0 ? lastIndex : currentIndex - 1;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') nextIndex = currentIndex === lastIndex ? 0 : currentIndex + 1;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') nextIndex = currentIndex === 0 ? lastIndex : currentIndex - 1;
     if (event.key === 'Home') nextIndex = 0;
     if (event.key === 'End') nextIndex = lastIndex;
 
