@@ -467,12 +467,11 @@ h3 {
 
   .home-hero {
     gap: 20px;
-    padding: 38px 0 28px;
+    padding: 38px 0 34px;
   }
 
-  .home-mark img {
-    width: min(36vw, 142px);
-    filter: drop-shadow(0 10px 16px rgba(0, 30, 50, .1));
+  .home-mark {
+    display: none;
   }
 
   h1 {
