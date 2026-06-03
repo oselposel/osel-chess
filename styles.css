@@ -465,6 +465,16 @@ h3 {
     max-width: 1180px;
   }
 
+  .home-hero {
+    gap: 20px;
+    padding: 38px 0 28px;
+  }
+
+  .home-mark img {
+    width: min(36vw, 142px);
+    filter: drop-shadow(0 10px 16px rgba(0, 30, 50, .1));
+  }
+
   h1 {
     font-size: 56px;
   }
